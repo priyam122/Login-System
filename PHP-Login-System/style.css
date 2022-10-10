@@ -1,0 +1,131 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: large;
+    background-color: rgb(233, 233, 233);
+}
+
+.nav-link {
+    color: rgb(77, 77, 77);
+    padding-right: 1px;
+}
+
+.nav-link:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.navbar {
+    padding-left: 10px;
+    padding-right: 25px;
+    background-color: #ffffff;
+}
+
+.logo {
+    width: 300px;
+}
+
+.navform {
+    margin-right: 7px;
+    padding-right: 0px;
+    box-shadow: none !important;
+}
+
+::placeholder {
+    font-size: medium;
+}
+
+input[type=text] {
+    border: 2px solid rgb(233, 233, 233);
+    background-color: rgb(233, 233, 233);
+}
+
+input[type=password] {
+    border: 2px solid rgb(233, 233, 233);
+    background-color: rgb(233, 233, 233);
+}
+
+input[type=text]:focus {
+    background-color: rgb(233, 233, 233);
+    border: 2px solid rgb(206, 206, 206);
+}
+
+input[type=password]:focus {
+    background-color: rgb(233, 233, 233);
+    border: 2px solid rgb(206, 206, 206);
+}
+
+.login-out-btn {
+    margin-right: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: medium;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.signup-btn {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: medium;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.signup {
+    margin: 10px;
+    font-size: medium;
+}
+
+.wrapper-main {
+    background-color: white;
+    margin: 20px 300px 20px 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+
+.section-default {
+    color: black;
+    text-align: center;
+}
+
+.section-default h1 {
+    color: black;
+    text-align: center;
+}
+
+.login-status {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    -webkit-transition: -color 0.2s ease-in-out;
+    -moz-transition: color 0.2s ease-in-out;
+    -o-transition: color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out;
+    color: rgb(77, 77, 77);
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.signup-form {
+    box-shadow: none !important;
+    margin-bottom: 5px;
+    width: 50%;
+    display: inline-block;
+}
+
+.signup-btn {
+    margin-top: 15px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.signup-hr {
+    margin-bottom: 25px;
+    width: 75%;
+}
